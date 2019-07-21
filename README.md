@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/wesseldr/fido2-lib.svg?branch=master)](https://travis-ci.org/wesseldr/fido2-lib) 
-[![codecov](https://codecov.io/gh/wesseldr/fido2-lib/branch/master/graph/badge.svg)](https://codecov.io/gh/jedrivisser/fido2-lib)
+[![codecov](https://codecov.io/gh/wesseldr/fido2-lib/branch/master/graph/badge.svg)](https://codecov.io/gh/wesseldr/fido2-lib)
 [![Known Vulnerabilities](https://snyk.io/test/github/wesseldr/fido2-lib/badge.svg?targetFile=package.json)](https://snyk.io/test/github/wesseldr/fido2-lib?targetFile=package.json)
 ## Install
 
