@@ -64,7 +64,7 @@ declare module "fido2-lib" {
 
   interface ExpectedAttestationResult {
     rpId: string;
-    origin: string | string[];
+    origin?: string | string[];
     challenge: string;
     factor: Factor;
   }
