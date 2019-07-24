@@ -8,6 +8,7 @@ declare module "fido2-lib" {
     attestationResult(res: AttestationResult, expected: ExpectedAttestationResult): Promise<Fido2AttestationResult>;
     assertionOptions(opts?: AssertionOptions): Promise<PublicKeyCredentialRequestOptions>;
     assertionResult(res: AssertionResult, expected: ExpectedAssertionResult): Promise<Fido2AssertionResult>;
+    config:any;
   }
 
   interface Fido2LibOptions {
