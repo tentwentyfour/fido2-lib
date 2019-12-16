@@ -51,13 +51,13 @@ var f2l = new Fido2Lib();
 // could also use one or more of the options below,
 // which just makes the options calls easier later on:
 var f2l = new Fido2Lib({
-    timeout: 42,
+    timeout: 60000, // in milliseconds
     rpId: "example.com",
     rpName: "ACME",
     rpIcon: "https://example.com/logo.png",
     challengeSize: 128,
     attestation: "none",
-    cryptoParams: [-7, -257],
+    cryptoParams: [-7],
     authenticatorAttachment: "platform",
     authenticatorRequireResidentKey: false,
     authenticatorUserVerification: "required"
@@ -102,7 +102,7 @@ var assertionExpectations = {
         "-----END PUBLIC KEY-----\n",
     prevCounter: 362
 };
-var authnResult = await f2l.attestationResult(clientAssertionResponse, assertionExpectations); // will throw on error
+var authnResult = await f2l.assertionResult(clientAssertionResponse, assertionExpectations); // will throw on error
 
 // authentication complete!
 ```
