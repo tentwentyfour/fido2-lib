@@ -44,12 +44,12 @@
     "sinon": "^7.3.2"
   },
   "dependencies": {
+    "@peculiar/webcrypto": "^1.0.1",
     "asn1js": "^2.0.18",
     "cbor": "^4.0.0",
     "cose-to-jwk": "^1.1.0",
     "jwk-to-pem": "^2.0.0",
-    "node-jose": "^1.0.0",
-    "@peculiar/webcrypto": "^1.0.1",
+    "node-jose": "^2.0.0",
     "pkijs": "=2.1.58",
     "psl": "^1.1.24"
   }
